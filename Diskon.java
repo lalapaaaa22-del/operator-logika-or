@@ -8,6 +8,8 @@ public class Diskon {
         System.out.print("Apakah punya kartu member? (true/false): ");
         boolean member = input.nextBoolean();
 
+        //test
+        
         if (total >= 500000 || (member && total >= 300000)) {
             System.out.println("Kamu dapat diskon spesial!");
         } else {
